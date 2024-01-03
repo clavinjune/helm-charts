@@ -36,6 +36,9 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: helm/chart-releaser-action@v1.6.0
+        env:
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          CR_GENERATE_RELEASE_NOTES: true
       - name: Push charts to GHCR
         run: |
           shopt -s nullglob
@@ -45,6 +48,3 @@ jobs:
             fi
             helm push "${pkg}" "oci://ghcr.io/${GITHUB_REPOSITORY_OWNER}/charts"
           done
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          CR_GENERATE_RELEASE_NOTES: true
