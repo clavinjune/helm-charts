@@ -3,6 +3,16 @@ entries:
   foo:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-01-03T07:34:01.54711423Z"
+    description: A Helm chart for Kubernetes
+    digest: 728295ab75605c7d2de4356ca6f789f2f65c85c272fbab81e4917469d12dc85f
+    name: foo
+    type: application
+    urls:
+    - https://github.com/clavinjune/helm-charts/releases/download/foo-0.1.1/foo-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-03T07:20:29.394326305Z"
     description: A Helm chart for Kubernetes
     digest: c7e3ded008054017849a7aafa726a2003b55de20b521cb58c2af52cb78d0ffb7
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/clavinjune/helm-charts/releases/download/foo-0.1.0/foo-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-03T07:20:29.39435595Z"
+generated: "2024-01-03T07:34:01.547122786Z"
