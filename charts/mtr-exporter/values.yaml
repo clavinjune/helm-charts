@@ -131,12 +131,12 @@ serviceMonitor:
 jobs:
   globalConfig:
     schedule: "@every 60s"
-    flags: "--tcp --port 443 -c 10"
+    flags: "-j --tcp --port 443 -c 10"
   config: {}
-    # quadq:
+    # 9.9.9.9:
     #   schedule: "@every 120s"
-    #   flags: "-I ven1 -n 9.9.9.9"
+    #   flags: "-I ven1 -n"
     # example.com:
     #   schedule: "@every 45s"
-    #   flags: "-I ven2 -n example.com"
+    #   flags: "-I ven2 -n"
     # foobar.io: {}
