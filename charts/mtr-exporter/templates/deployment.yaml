@@ -62,7 +62,6 @@ spec:
             {{- end }}
       volumes:
         - name: jobsconfig
-          readOnly: true
           configMap:
             name: {{ include "mtr-exporter.fullname" . }}
         {{- with .Values.volumes }}
