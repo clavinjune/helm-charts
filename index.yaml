@@ -24,6 +24,16 @@ entries:
   mtr-exporter:
   - apiVersion: v2
     appVersion: 0.4.0
+    created: "2025-01-08T11:34:44.898573815Z"
+    description: A Helm chart for github.com/mgumz/mtr-exporter
+    digest: 97cba97bb657e1ec0dd4c6bb5e23ba8483bb7358ff800a731f7e08e481e79e3b
+    name: mtr-exporter
+    type: application
+    urls:
+    - https://github.com/clavinjune/helm-charts/releases/download/mtr-exporter-0.0.3/mtr-exporter-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 0.4.0
     created: "2025-01-08T11:27:42.666527516Z"
     description: A Helm chart for github.com/mgumz/mtr-exporter
     digest: c3acaa2c753f54e9bdffa10afb6722f64718ba1e7e8ebe76e0b732ab218938f2
@@ -42,4 +52,4 @@ entries:
     urls:
     - https://github.com/clavinjune/helm-charts/releases/download/mtr-exporter-0.0.1/mtr-exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2025-01-08T11:27:42.666538877Z"
+generated: "2025-01-08T11:34:44.898664317Z"
