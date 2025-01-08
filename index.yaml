@@ -24,6 +24,29 @@ entries:
   mtr-exporter:
   - apiVersion: v2
     appVersion: 0.4.0
+    created: "2025-01-08T13:13:39.638839351Z"
+    description: A Helm chart for github.com/mgumz/mtr-exporter
+    digest: 7eed1285fce28cfdf5e6a535b31d1fe643cc84cf4bb1e80d192ab090531ba9ea
+    home: https://helm-charts.clavinjune.dev
+    keywords:
+    - mtr
+    - networking
+    - observability
+    kubeVersion: '>= 1.29.0'
+    maintainers:
+    - email: juneardoc@gmail.com
+      name: clavinjune
+      url: https://clavinjune.dev
+    name: mtr-exporter
+    sources:
+    - https://github.com/clavinjune/helm-charts/tree/main/charts/mtr-exporter
+    - https://github.com/mgumz/mtr-exporter
+    type: application
+    urls:
+    - https://github.com/clavinjune/helm-charts/releases/download/mtr-exporter-0.0.5/mtr-exporter-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: 0.4.0
     created: "2025-01-08T12:08:34.868342437Z"
     description: A Helm chart for github.com/mgumz/mtr-exporter
     digest: 692fd01ec0a4713f9154b980e33efb2a79d85545525dbf81c7c3b2f0aa433ccf
@@ -62,4 +85,4 @@ entries:
     urls:
     - https://github.com/clavinjune/helm-charts/releases/download/mtr-exporter-0.0.1/mtr-exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2025-01-08T12:08:34.868360722Z"
+generated: "2025-01-08T13:13:39.638867062Z"
